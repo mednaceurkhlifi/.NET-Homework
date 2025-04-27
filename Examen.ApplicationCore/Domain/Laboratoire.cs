@@ -12,7 +12,7 @@ namespace Examen.ApplicationCore.Domain
         public string Intitule { get; set; }
         public string Localisation { get; set; }
 
-        public virtual ICollection<Analyse> Anaylses { get; set; }
+        public virtual ICollection<Infirmier> Infirmiers { get; set; }
 
     }
 

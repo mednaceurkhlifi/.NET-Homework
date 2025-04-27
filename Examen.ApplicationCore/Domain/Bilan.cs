@@ -18,5 +18,7 @@ namespace Examen.ApplicationCore.Domain
 
         public string CodePatient { get; set; }
         public virtual Patient Patient { get; set; }
+
+        public virtual ICollection<Analyse> Analyses { get; set; }
     }
 }

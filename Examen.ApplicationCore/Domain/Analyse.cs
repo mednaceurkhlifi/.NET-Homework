@@ -17,7 +17,8 @@ namespace Examen.ApplicationCore.Domain
         public float ValeurMaxNormale { get; set; }
         public float ValeurMinNormale { get; set; }
 
-        public int LaboratoireId { get; set; }
-        public virtual Laboratoire Laboratoire { get; set; }
+        public int BilanId { get; set; }
+        public virtual Bilan Bilan { get; set; }
+
     }
 }
